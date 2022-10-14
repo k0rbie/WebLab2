@@ -1,0 +1,79 @@
+p, h3{
+    margin: 8px;
+}
+*{
+    padding: 5px;
+}
+area, html, body, table{
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+#table{
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+}
+/**{*/
+/*    border: 2px dashed;*/
+/*    border-color: black yellow cyan red;*/
+/*}*/
+#area1{
+    height: 150px;
+    background-color: cornflowerblue;
+}
+#area2{
+    height: 225px;
+    width: 175px;
+    background-color: lightpink;
+}
+#area3{
+    background-color: lightyellow;
+}
+#area4{
+    width: 175px;
+    background-color: lightpink;
+}
+#area5{
+    height: 225px;
+    width: 175px;
+    background-color: lightgreen;
+}
+#area6{
+    height: 150px;
+    background-color: cornflowerblue;
+}
+.inner_div{
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+ul, ol{
+    padding-left: 40px;
+}
+
+#X, #Y{
+    width: 23%;
+    min-height: 80px;
+}
+#head_div, #bot_div{
+    line-height: 20px;
+}
+#head_text_div, #bot_text_div{
+    width: 74%;
+}
+.left-al{
+    text-align: left;
+}
+.right-al{
+    text-align: right;
+}
+.center-al{
+    text-align: center;
+}
