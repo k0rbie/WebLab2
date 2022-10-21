@@ -15,21 +15,21 @@ body{
     margin: 0;
     height: 100%;
 }
-#table{
+table{
     width: 100%;
     height: 100%;
     background-color: lightgrey;
+    overflow: auto;
+    /*display: block;*/
 }
-/**{*/
-/*    border: 2px dashed;*/
-/*    border-color: black yellow cyan red;*/
-/*}*/
+*{
+    /*border: 2px dashed;*/
+    /*border-color: black yellow cyan red;*/
+}
 #area1{
-    height: 150px;
     background-color: cornflowerblue;
 }
 #area2{
-    height: 225px;
     width: 175px;
     background-color: lightpink;
 }
@@ -41,13 +41,23 @@ body{
     background-color: lightpink;
 }
 #area5{
-    height: 225px;
     width: 175px;
     background-color: lightgreen;
 }
 #area6{
-    height: 150px;
     background-color: cornflowerblue;
+}
+#row1{
+    height: 150px;
+}
+#row2{
+    height: 100%;
+}
+#row3{
+    height: 100%;
+}
+#row4{
+    height: 150px;
 }
 .inner_div{
     line-height: normal;
@@ -60,10 +70,11 @@ ul, ol{
 
 #X, #Y{
     width: 23%;
-    min-height: 80px;
+    /*min-height: 80px;*/
 }
 #head_div, #bot_div{
-    line-height: 20px;
+    /*line-height: 20px;*/
+    /*height: 100px;*/
 }
 #head_text_div, #bot_text_div{
     width: 74%;
