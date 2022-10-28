@@ -1,0 +1,86 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+p, h2{
+    margin: 10px;
+}
+p, li{
+    padding: 5px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.vrt{
+    flex-direction: column;
+}
+.hrz{
+    flex-direction: row;
+}
+#main_block{
+    background-color: wheat;
+    min-height: 100%;
+}
+#b23456, #b235, #a2, #a5{
+    flex-grow: 1;
+}
+#a4{
+    flex-basis: 15%;
+}
+#b2356{
+    flex-basis: 85%;
+}
+#b25{
+    flex-basis: 17.6470588%;
+}
+#a3{
+    flex-basis: 82.3529412%;
+}
+#a1, #a6{
+    flex-basis: 150px;
+}
+#a2, #a5{
+    flex-basis: 200px;
+}
+#X, #Y{
+    flex-basis: 25%;
+}
+#text1, #text6{
+    flex-basis: 75%;
+}
+.area{
+    justify-content: center;
+    align-items: center;
+}
+.left-al{
+    text-align: left;
+    align-items: flex-start;
+}
+.right-al{
+    text-align: right;
+    align-items: flex-end;
+}
+.center-al{
+    text-align: center;
+    align-items: center;
+}
+.justify-al{
+    text-align: justify;
+}
+#a1, #a6{
+    background-color: cornflowerblue;
+}
+#a2, #a4{
+    background-color: lightpink;
+}
+#a3{
+    background-color: lightyellow;
+}
+#a5{
+    background-color: lightgreen;
+}
