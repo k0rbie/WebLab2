@@ -16,7 +16,6 @@ tr, td, area, html, body, table{
     padding: 0;
 }
 table{
-    border-spacing: 0;
     border-collapse: collapse;
 }
 table{
@@ -33,13 +32,16 @@ table{
     height: 150px;
 }
 #row2, #row3{
-    height: 200px;
+    height: 250px;
 }
 #Y, #X{
     width: 25%;
 }
 #bot_text_div, #head_text_div{
     width: 75%;
+}
+td{
+    border-radius: 25px;
 }
 ul, ol{
     padding-left: 40px;
@@ -63,7 +65,7 @@ ul, ol{
     background-color: lightpink;
 }
 #area3{
-    background-color: lightyellow;
+    background-color: white;
 }
 #area5{
     background-color: lightgreen;

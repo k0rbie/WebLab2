@@ -23,7 +23,6 @@ p, li{
     flex-direction: row;
 }
 #main_block{
-    background-color: wheat;
     min-height: 100%;
 }
 #b23456, #b235, #a2, #a5{
@@ -45,7 +44,7 @@ p, li{
     flex-basis: 150px;
 }
 #a2, #a5{
-    flex-basis: 200px;
+    flex-basis: 250px;
 }
 #X, #Y{
     flex-basis: 25%;
@@ -56,6 +55,7 @@ p, li{
 .area{
     justify-content: center;
     align-items: center;
+    border-radius: 25px;
 }
 .left-al{
     text-align: left;
@@ -79,7 +79,7 @@ p, li{
     background-color: lightpink;
 }
 #a3{
-    background-color: lightyellow;
+    background-color: white;
 }
 #a5{
     background-color: lightgreen;
