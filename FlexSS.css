@@ -3,8 +3,13 @@ html{
     height: 100%;
 }
 body{
+    font-family: Verdana, sans-serif;
     margin: 0;
     height: 100%;
+}
+a{
+    text-decoration: none;
+    color: darkslateblue;
 }
 p, h2{
     margin: 10px;
@@ -29,16 +34,16 @@ p, li{
     flex-grow: 1;
 }
 #a4{
-    flex-basis: 15%;
+    width: 15%;
 }
 #b2356{
-    flex-basis: 85%;
+    width: 85%;
 }
 #b25{
-    flex-basis: 17.6470588%;
+    width: 17.6470588%;
 }
 #a3{
-    flex-basis: 82.3529412%;
+    width: 82.3529412%;
 }
 #a1, #a6{
     flex-basis: 150px;
